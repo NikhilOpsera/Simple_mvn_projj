@@ -1,5 +1,5 @@
 FROM java:7
-COPY . .
-WORKDIR /src/src/main/java/com/samplemavenproject/sampleproject
+COPY . /usr/src/myapp
+WORKDIR /usr/src/myapp
 RUN javac App.java
 CMD ["java", "App"]
