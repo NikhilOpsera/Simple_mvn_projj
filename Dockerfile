@@ -3,6 +3,7 @@
 #WORKDIR /usr/src/myapp
 #RUN javac App.java
 #CMD ["java", "App"]
+#cmd
 
 FROM openjdk:17
 WORKDIR /app
